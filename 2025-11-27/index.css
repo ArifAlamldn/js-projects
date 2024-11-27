@@ -1,0 +1,74 @@
+/* Resetting default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Title styling */
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Counter display styling */
+  #counter {
+    font-size: 3rem;
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* Buttons container */
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Increment button styling */
+  .increment {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .increment:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+  
+  /* Decrement button styling */
+  .decrement {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .decrement:hover {
+    background-color: #d32f2f;
+    transform: scale(1.1);
+  }
+  
+  /* Reset button styling */
+  .reset {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .reset:hover {
+    background-color: #1976d2;
+    transform: scale(1.1);
+  }
+  
